@@ -25,7 +25,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
+ 
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
@@ -37,10 +37,11 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-##codebeat
+## codebeat
 [![codebeat badge](https://codebeat.co/badges/67d9cb8e-a0dd-4af0-b3bf-56e6b5ee31b3)](https://codebeat.co/projects/github-com-josehgaks-quotes-master)
 
-Copyright <2020> <JOSEPH GAKUNGA>
+## LICENSE
+Copyright 2020 JOSEPH GAKUNGA
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
