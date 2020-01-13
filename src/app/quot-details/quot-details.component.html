@@ -1,10 +1,12 @@
 <p></p>
 <div class="votes">
+
     <button class="upvote" (click)="upvote()">
         <i class="fas fa-thumbs-up"> {{upvotes}}  </i>
     </button> 
     <button class="downvote" (click)="downvote()"> 
         <i class="fas fa-thumbs-down"> {{downvotes}} </i>
     </button>
+    
 </div>
 <button (click)='quoteDelete(true)' class="btn btn-outline-danger btn-sm">delete quote</button>
