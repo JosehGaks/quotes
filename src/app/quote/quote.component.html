@@ -1,0 +1,27 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="gray-container">
+    
+          <ul >
+            <div *ngFor="let quote of quotes;let i = index" id="container" >
+          <li ><i class="fas fa-user fa-2x"> {{quote.writer}}</i><blockquote class="blockquote"> <i class="fas fa-quote-left"></i>  {{ quote.quot }}  <i class="fas fa-quote-right"></i></blockquote> <figure class="blockquote-footer">{{quote.author}} <cite title="Source Title">  written on {{quote.date|date}}</cite></figure></li>
+          <app-quot-details [quote]='quote' (isComplete) = 'deleteQuote($event,i)'></app-quot-details>
+          <hr>
+        </div>
+          </ul>
+      </div>
+
+    </div>
+    
+
+  <div class="col-md-6">
+      <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form> 
+  </div>
+</div>
+
+</div>
+
+
+
+
