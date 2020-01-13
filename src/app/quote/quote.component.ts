@@ -16,7 +16,7 @@ export class QuoteComponent implements OnInit {
     new Quote(1, 'A hundred times every day I remind myself that my inner and outer life are based on the labors of other men, living and dead, and that I must exert myself in order to give in the same measure as I have received and am still receiving.', 'Albert Einstein','Jose',new Date()),
     new Quote(1, 'Love what you do and do what you love. Don’t listen to anyone else who tells you not to do it. You do what you want, what you love. Imagination should be the center of your life.', 'RAY BRADBURY','John',new Date()),
     new Quote(1, 'Hope lies in dreams, in imagination, and in the courage of those who dare to make dreams into reality.', 'JONAS SALK','Mary',new Date())
-    
+
   ]
   
   @Output() addQuote = new EventEmitter<Quote>();
@@ -33,6 +33,7 @@ export class QuoteComponent implements OnInit {
   
   
   deleteQuote(isComplete, index){
+
     if (isComplete) {
       let toDelete = confirm(`Are you sure you want to delete ${this.quotes[index].quot}?`)
 
@@ -41,6 +42,7 @@ export class QuoteComponent implements OnInit {
       }
     }
   }
+  
   constructor() { }
   
   ngOnInit() {
