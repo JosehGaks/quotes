@@ -17,7 +17,6 @@ export class QuotDetailsComponent implements OnInit {
     this.isComplete.emit(complete);
   }
 
-  
   upvotes: number = 0;
   downvotes: number = 0;
   
