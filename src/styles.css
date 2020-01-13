@@ -16,8 +16,10 @@ body{
     border-radius: 29%;
 }
 .votes{
+
     display: inline;
     margin: 2em;
+    
 }
 .upvote{
    padding-right: 1em;    
