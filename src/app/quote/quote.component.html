@@ -11,7 +11,10 @@
             <blockquote class="blockquote"> 
               <i class="fas fa-quote-left"></i>  {{ quote.quot }}  <i class="fas fa-quote-right"></i>
             </blockquote> 
-            <figure class="blockquote-footer">{{quote.author}} <cite title="Source Title">  written on {{quote.date|date}}</cite></figure></li>
+
+            <figure class="blockquote-footer">{{quote.author}} <cite title="Source Title">  written on {{quote.date|date}}</cite>
+            </figure>
+          </li>
           <app-quot-details [quote]='quote' (isComplete) = 'deleteQuote($event,i)'></app-quot-details>
           <hr>
         </div>
